@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-gltx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0081-tenant/ci1t-43256-0081-app/devfile-sample-gltx@sha256:fb90c51f7cbdfe3222f2d294123c2e7a6c6d9104b56257df639d5c5daeb92515
+        name: my-nodejs
+        resources: {}
+status: {}
